@@ -266,6 +266,62 @@ threatvision/
 
 
 
+
+
+\## 🖥️ Application Screenshots
+
+
+
+\### Dashboard
+
+
+
+The ThreatVision dashboard provides an overview of Windows security telemetry, monitoring state, WPD/MTP devices, USB activity, and security operations.
+
+
+
+!\[ThreatVision Dashboard](screenshots/dashboard.png)
+
+
+
+\### Live Security
+
+
+
+The Live Security console provides a real-time view of Windows event telemetry with filtering, alert detection, risk signals, and event inspection.
+
+
+
+!\[ThreatVision Live Security](screenshots/live-security.png)
+
+
+
+\### USB Security
+
+
+
+The USB Security module provides visibility into removable storage and Windows Portable Device / MTP activity.
+
+
+
+!\[ThreatVision USB Security](screenshots/usb-security.png)
+
+
+
+\### Project Information
+
+
+
+The Project Info interface documents the purpose, objectives, telemetry architecture, and security capabilities of ThreatVision.
+
+
+
+!\[ThreatVision Project Information](screenshots/project-info.png)
+
+
+
+
+
 \## 🧰 Technology Stack
 
 
