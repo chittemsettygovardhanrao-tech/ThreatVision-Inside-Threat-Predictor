@@ -1,0 +1,16 @@
+policies:
+  - name: critical
+    enabled: true
+    condition:
+      risk_gte: 90
+    actions: [raise_alert, notify, require_reauthentication]
+  - name: high
+    enabled: true
+    condition:
+      risk_gte: 75
+    actions: [raise_alert, snapshot_evidence]
+  - name: medium
+    enabled: true
+    condition:
+      risk_gte: 50
+    actions: [raise_alert]

@@ -1,0 +1,22 @@
+application:
+  name: ThreatVision
+  version: '1.0.0'
+monitoring:
+  consent_required: true
+  interval_seconds: 1.0
+  simulation: true
+privacy:
+  hash_user_ids: true
+  store_message_bodies: false
+  retention_days: 90
+ml:
+  anomaly_weight: 0.40
+  supervised_weight: 0.60
+  thresholds:
+    low: 25
+    medium: 50
+    high: 75
+    critical: 90
+response:
+  mode: simulation
+  require_confirmation_for_high_impact: true
